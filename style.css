@@ -1,22 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* General styles */
+:root {
+  --btn-color1: hsl(171, 66%, 44%);
+  --btn-color2: hsl(233, 100%, 69%);
 }
-body{
-    font-family: 'Bai Jamjuree', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.hero{
-    background-image: url("./images/bg-header-desktop.png");
-    background-size: cover;
-    width: 100vw;
-    height: 50vh;
+
+button {
+  outline: none;
+  border: 0px;
+  padding: 10px;
+  border-radius: 75px;
+  width: 150px;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  overflow-x: hidden;
+}
+
+.hero {
+  background-image: url(./images/bg-header-desktop.png);
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 8rem;
+}
+
+.first-cover {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+.line-break {
+  width: 600px;
+}
+
+.btn-cover {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.green {
+  background-color: var(--btn-color1);
+}
+
+.blue {
+  background-color: var(--btn-color2);
+}
+.follow-up{
+    padding-top:2rem;
+}
+.rat{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 12rem;
+    height: 40rem;
+    margin-bottom: 5rem;
 }
-.logo{
-    width: 100px;
-    height: 100px;
+.computer{
+    height: 30rem;
+
+}
+.process{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+.third{
+    text-align: center;
+    margin: 0 auto;
 }
