@@ -49,7 +49,9 @@ body {
 }
 
 .line-break {
-  width: 600px;
+  text-align: center;
+  margin: 4 auto;
+  padding-bottom: 5rem;
 }
 
 .btn-cover {
@@ -92,3 +94,116 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+.line-scatter{text-align: center; margin: 4 auto;padding-bottom: 5rem ;}
+.fourth{ text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+.footer{display: flex; justify-content: center; gap: 1rem;}
+.end-para{text-align: center; margin: 4 auto;padding-bottom: 5rem ;}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero {
+        height: 30vh;
+    }
+
+    .first-cover {
+        gap: 15px;
+    }
+
+    .line-break {
+        width: 100%;
+    }
+
+    .rat {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .computer {
+        height: auto;
+    }
+
+    .process {
+        gap: 2rem;
+    }
+
+    .third {
+        margin: 0 1rem;
+    }
+
+    .fourth {
+        padding-bottom: 2rem;
+    }
+}
+{}
+.Google {
+    width: 300px;
+    height: auto;
+}
+
+.IBM {
+    width: 300px;
+    height: auto;
+}
+
+.Microsoft {
+    width: 300px;
+    height: auto;
+}
+
+.hp {
+    width: 300px;
+    height: auto;
+}
+
+.Vector {
+    width: 300px;
+    height: auto;
+}
+.end-para{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+.spacing{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    gap: 2rem;
+}
+.icons{ padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.footer{gap: 2rem;}
+.fifth{display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center
+}
+.logo2 {display: flex;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+  max-width: fit-content;
+}
+.logo2 img{
+  width: 30px;
+  height: 30px;
+  gap: 20px;
+}
+footer{background-color: hsl(230, 14%, 91%);
+  color: hsl(228, 2%, 41%);
+  text-align: center;
+  padding: 20px ;
+  margin-top: 40px;
+}
+.line-break2 {
+        height: inherit;;
+        margin: 4 auto;
+        padding-bottom: 1rem;
+    }
